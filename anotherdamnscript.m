@@ -1,0 +1,21 @@
+% AreaPSUVbBPShifted=SameX(AreaPSUVbBP(end-6775+1:end,:),AreaPS0(:,1),6000:6600);
+% AreaPSUVmBPShifted=SameX(AreaPSUVmBP(end-6775+1:end,:),AreaPS0(:,1),6000:6600);
+% AreaPSUVbFenShifted=SameX(AreaPSUVbFen(end-6775+1:end,:),AreaPS0(:,1),6000:6600);
+% AreaPSUVmFenShifted=SameX(AreaPSUVmFen(end-6775+1:end,:),AreaPS0(:,1),6000:6600);
+% AreaPSUVbPthShifted=SameX(AreaPSUVbPth(end-6775+1:end,:),AreaPS0(:,1),6000:6600);
+% AreaPSUVmPthShifted=SameX(AreaPSUVmPth(end-6775+1:end,:),AreaPS0(:,1),6000:6600);
+% AreaPSUVctrShifted=SameX(AreaPSUVctr(end-6775+1:end,:),AreaPS0(:,1),6000:6600);
+% AreaPSUVnewBBPShifted=SameX(AreaPSUVnewBBP(end-6775+1:end,:),AreaPS0(:,1),6000:6600);
+% AreaPSUVnewMBPShifted=SameX(AreaPSUVnewMBP(end-6775+1:end,:),AreaPS0(:,1),6000:6600);
+% AreaPSUVnewCtrShifted=SameX(AreaPSUVnewCtr(end-6775+1:end,:),AreaPS0(:,1),6000:6600);
+
+AreaPSUVbBPNew=AreaNormalize(linPS0(:,1),AreaPSUVbBP,4000:6650);
+AreaPSUVmBPNew=AreaNormalize(linPS0(:,1),AreaPSUVmBP,4000:6650);
+AreaPSUVbFenNew=AreaNormalize(linPSUV(:,1),AreaPSUVbFen,8000:9920);
+AreaPSUVmFenNew=AreaNormalize(linPSUV(:,1),AreaPSUVmFen,8000:9920);
+AreaPSUVbPthNew=AreaNormalize(linPS0(:,1),AreaPSUVbPth,4000:6650);
+AreaPSUVmPthNew=AreaNormalize(linPS0(:,1),AreaPSUVmPth,4000:6650);
+AreaPSUVctrNew=AreaNormalize(linPS0(:,1),AreaPSUVctr,4000:6650);
+AreaPSUVnewBBPNew=AreaNormalize(linPS0(:,1),AreaPSUVnewBBP,4000:6650);
+AreaPSUVnewMBPNew=AreaNormalize(linPS0(:,1),AreaPSUVnewMBP,4000:6650);
+AreaPSUVnewCtrNew=AreaNormalize(linPS0(:,1),AreaPSUVnewCtr,4000:6650);
